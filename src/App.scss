@@ -1,0 +1,206 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  
+}
+
+button{
+  cursor: pointer;
+}
+
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin: 5vh 0;
+
+
+
+  .nav-link{
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      background-color: rgb(245, 107, 98);
+      border-radius: 15%;
+      width: 180px;
+      line-height: 40px;
+  }
+  
+}
+
+h1{
+  font-size: 68px;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.servicetitle{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content:space-between;
+  align-items: center;
+ 
+  
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-size: 0;
+
+  p{
+    font-size: 16px;
+    font-weight: bold;
+    width: 23%;
+    text-align: left;
+
+  }
+}
+
+.servicebook{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content:space-between;
+  align-items: center;
+  border: #888888 1px solid;
+  box-shadow: 5px 10px #888888;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  
+
+
+  h3{
+    font-size: 24px;
+    width: 23%;
+    text-align: left;
+  }
+
+  p{
+    font-size: 16px;
+    width: 23%;
+    text-align: left;
+
+  }
+
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  width: 80vw;
+  border: 1px solid #888888;
+
+  input{
+    margin-bottom: 20px;
+  }
+
+  button{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(245, 107, 98);
+    border-radius: 15%;
+    width: 180px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+}
+
+.btn-holder{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  button{
+    padding: 10px 20px;
+    border-radius: 15%;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+
+  .btn-del{
+    background-color: red;
+  }
+
+  .btn-promote{
+    background-color: lightgreen;
+  }
+}
+
+.adminservicetitle{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content:space-between;
+  align-items: center;
+ 
+  
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-size: 0;
+
+  p{
+    font-size: 16px;
+    font-weight: bold;
+    width: 19%;
+    text-align: left;
+
+  }
+}
+
+.adminservicebook{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content:space-between;
+  align-items: center;
+  border: #888888 1px solid;
+  box-shadow: 5px 10px #888888;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  
+
+
+  h3{
+    font-size: 24px;
+    width:19%;
+    text-align: left;
+  }
+
+  p{
+    font-size: 16px;
+    width: 19%;
+    text-align: left;
+
+  }
+
+  button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    width: 19%;
+    border-radius: 15%;
+  }
+
+}
